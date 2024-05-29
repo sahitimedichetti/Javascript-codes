@@ -1,9 +1,37 @@
 <html>
     <head>
         <title> Play with Clock </title>
-        <link type="text/css" href="style.css">
+        <link  rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        
+        <div class="page">
+            <header>
+                <h1> MEMORIES </h1>
+            </header>
+            <span id="time"> Time display </span>
+
+            
+            <img id="displayedImage" alt="Union">
+            <blockquote id="timeSpan"> This is where you can chose the time 
+            </blockquote>
+            
+            Select time
+            <select id="timeSelector">
+                <option value="0" selected> No choice</option>
+                <option value="1">9AM- 12PM </option>
+                <option value="2">12PM- 2PM </option>
+                <option value="3">2PM- 5PM </option>
+                <option value="4">5PM- 8PM </option>
+                <option value="5">8PM- 10PM </option>
+                <option value="6">10PM- 8AM </option>
+                
+                
+            </select> <br>
+            
+            <button id="partyTime"> Party!!!</button>
+
+        </div>
+        <script type="text/javascript" src="script.js">
+        </script>
     </body>
 </html>

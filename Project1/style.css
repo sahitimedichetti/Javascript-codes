@@ -1,0 +1,52 @@
+body{
+    background-color: #f16059;
+    font-size: medium;
+    font: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px;
+    margin: 0px;
+    text-transform: uppercase;
+    
+}
+.page{
+    width: 80%;
+    margin: 50px auto;
+    max-width: 960px;
+    background-color:#f16059;
+    text-align: center;
+    border-radius: 4px;
+}
+header{
+    font-size: 30px;
+}
+#time{
+    font-size: 36px;
+    display:block;
+    padding: 10px;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Gettogether{
+    max-width: 20em;
+    size: 50px;
+}
+blockquote{
+    font:100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    color: #fff;
+}
+#timeSelector{
+    background-color: white;
+    padding: 10px;
+}
+#partyTime{
+    background-color:cadetblue;
+    width: 30%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+}
